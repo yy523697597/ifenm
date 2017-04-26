@@ -72,8 +72,8 @@ img {
 
 p.dream {
 	/*背景为渐变颜色*/
-	background-image: -webkit-linear-gradient(left, #00FFD4 10%, #00D4FF 20%, #2AD4FF 30%, #AAAAFF 40%, #D47FFF 50%, #D455FF 60%, #AAAAFF 70%, #2AD4FF 80%, #00D4FF 90%, #00FFAA 100%);
-	background-image: linear-gradient(to right, #00FFD4 10%, #00D4FF 20%, #2AD4FF 30%, #AAAAFF 40%, #D47FFF 50%, #D455FF 60%, #AAAAFF 70%, #2AD4FF 80%, #00D4FF 90%, #00FFAA 100%);
+	background-image: -webkit-linear-gradient(to right, #00FFD4 10%, #00D4FF 20%, #2AD4FF 30%, #AAAAFF 40%, #D47FFF 50%,#00FFD4 60%, #00D4FF 70%, #2AD4FF 80%, #AAAAFF 90%, #00FFD4 100%);
+	background-image: linear-gradient(to right, #00FFD4 10%, #00D4FF 20%, #2AD4FF 30%, #AAAAFF 40%, #D47FFF 50%,#00FFD4 60%, #00D4FF 70%, #2AD4FF 80%, #AAAAFF 90%, #00FFD4 100%);
 	/*背景填充为文字*/
 	background-clip: text;
 	-webkit-background-clip: text;
