@@ -55,9 +55,7 @@ img {
 	transition: all 1s;
 }
 
-.dialog:hover {
-	opacity: 1;
-}
+
 
 .container p {
 	/*设置文字颜色为透明*/
@@ -121,7 +119,9 @@ p.highlight {
 	-webkit-transition: all 1.5s;
 	transition: all 1.5s;
 }
-
+.container:hover .dialog {
+	opacity: 1;
+}
 .container:hover .dialog::before {
 	height: 100%;
 	top: 0;
